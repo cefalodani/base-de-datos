@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lista de Contactos</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Lista de Contactos</h1>
+
+  <div class="contact-form">
+    <h2>Crear Contacto</h2>
+    <form id="add-contact-form">
+      <input type="text" id="name" placeholder="Nombre" required>
+      <input type="email" id="email" placeholder="Correo Electrónico" required>
+      <input type="text" id="phone" placeholder="Teléfono" required>
+      <button type="submit">Agregar</button>
+    </form>
+  </div>
+
+  <div id="contact-list">
+    <h2>Contactos creados</h2>
+    <ul id="contacts"></ul>
+  </div>
+
+  <script src="index.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
