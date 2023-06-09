@@ -64,11 +64,20 @@ body {
     border-bottom: none;
   }
   
+  .update {
+    background-color: #0421ff;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+  }
   
   
   
   .delete-btn {
-    background-color: #ff4444;
+    background-color: #f91900;
     color: #ffffff;
     padding: 5px 10px;
     border: none;
